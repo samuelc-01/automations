@@ -1,5 +1,5 @@
 # # Caminho da pasta pública
-# $folderPath = "C:\{Nome_da_pasta_que_deseja}"
+# $folderPath = "C:\Users\samuel.cristian\code\windows_2012_dev\public_test_folder"
 
 # # Definir o número de dias antes de excluir os arquivos
 # $daysOld = 30
@@ -35,3 +35,5 @@ foreach ($file in $files) {
         Write-Host "Erro ao deletar o arquivo: $($file.FullName)"
     }
 }
+
+Write-Host "hello word "
